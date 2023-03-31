@@ -1,6 +1,7 @@
 /* Header Section */
 header {
-        border: 1px solid rgba(2, 131, 245, 0.1);
+        border-bottom: 1px solid rgba(2, 131, 245, 0.1);
+        margin: 27px 0 124px 0;
 }
 
 .holder,
@@ -14,20 +15,14 @@ ul li {
         margin: 0 5px;
         position: relative;
         transition: all ease 0.3s;
-
-
 }
-ul li::after{
+
+ul li::after {
         content: " ";
         width: 69px;
-        
-
         transform: scale(0, 1);
-        transition: all ease 0.5s ;
+        transition: all ease 0.5s;
         transform-origin: 0% 100%;
-
-       
-
 }
 
 ul li:hover:after {
@@ -39,8 +34,7 @@ ul li:hover:after {
         left: 18px;
         position: absolute;
         border-bottom: 1px solid #0082F4;
-        transition: all ease 0.5s ;
-
+        transition: all ease 0.5s;
 }
 
 ul li a {
@@ -50,11 +44,17 @@ ul li a {
         font-size: 20px;
         line-height: 23px;
         color: #000000;
+        transition: all ease 0.5s;
+
 }
-ul li a:hover{
+
+ul li a:hover {
         color: #0082F4;
+        transition: all ease 0.5s;
+
 }
-.header-right button {
+
+.btn {
         background: #0082F4;
         border-radius: 6px;
         font-style: normal;
@@ -64,6 +64,106 @@ ul li a:hover{
         padding: 15px 30px;
         color: #FFFFFF;
         border: none;
+        cursor: pointer;
+        transition: all ease 0.3s;
+        border: 1px solid transparent;
+
 }
 
+.btn:hover {
+        background-color: #fff;
+        color: #000000;
+        border: 1px solid rgba(0, 130, 244, 0.1);
+        transition: all ease 0.3s;
+
+}
+
+
 /* Header Section */
+
+/* Hero section */
+.hero-holder {
+        display: flex;
+        justify-content: space-between;
+}
+
+.hero-left {
+        width: 48%;
+}
+
+.hero-left h5 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #0080FD;
+        margin-bottom: 6px;
+}
+
+.hero-left h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60.55px;
+        line-height: 130%;
+        color: #000000;
+        margin-bottom: 20px;
+
+}
+
+#business {
+        color: #0080FD;
+
+}
+
+.hero-left p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+        opacity: 0.6;
+        margin-bottom: 30px;
+}
+
+.btn-holder {
+
+        display: flex;
+        align-items: center;
+}
+
+.btn-holder .btn {
+        font-weight: 500;
+}
+
+.btn-white {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background-color: #fff;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        border: 1px solid rgba(0, 130, 244, 0.1);
+        border-radius: 10px;
+        margin-left: 30px;
+}
+
+.btn-white img {
+        object-fit: contain;
+}
+
+.hero-right img {
+        object-fit: cover;
+        transition: all ease 0.3s;
+
+}
+.hero-right img:hover {
+    transform: scale(1.3);
+    transition: all ease 0.3s;
+
+}
+/* Hero section */
