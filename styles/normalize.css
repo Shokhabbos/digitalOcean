@@ -1,0 +1,36 @@
+/* Base styles START */
+
+body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+}
+
+.container {
+        width: 100%;
+        max-width: 1140px;
+        padding: 0 16px;
+        margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+        margin: 0;
+        padding: 0;
+}
+
+ul{
+        list-style: none;
+}
+
+a{
+        text-decoration: none;
+}
+
+/* Base styles END */
